@@ -1,0 +1,31 @@
+- class_name: 常用列表
+  class_desc: 自用网站
+  link_list:
+    - name: Hexo
+      link: https://hexo.io/zh-tw/
+      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+      descr: 快速、简单且强大的网志框架
+    - name: ChatGPT
+      link: https://chat.openai.com/chat
+      avatar: http://favicon.cccyun.cc/openai.com
+      descr: 高效的人工智能
+    - name: Butterfly手册
+      link: https://butterfly.js.org/
+      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+      descr: Butterfly使用手册
+    - name: Gofile网盘
+      link: https://gofile.io/login
+      avatar: https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/icon/pan.png
+      descr: 不限速国外网盘
+    - name: 123云盘
+      link: https://www.123pan.com
+      avatar: https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/icon/%E4%BA%91%E7%9B%98.png
+      descr: 国内不限速网盘
+
+- class_name: 网站
+  class_desc: 值得推荐的网站
+  link_list:
+    - name: Switch
+      link: https://xxxxx520.com/
+      avatar: https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/icon/mario.png
+      descr: Switch模拟器游戏
