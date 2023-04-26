@@ -1,6 +1,6 @@
 ---
 title: Hexo自定义生成永久短链接
-copyright_author: 人间草木
+copyright_author: Mario
 abbrlink: 10aa1d61
 date: 2023-03-03 15:58:40
 updated:

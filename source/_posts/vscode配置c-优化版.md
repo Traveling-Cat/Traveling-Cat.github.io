@@ -1,6 +1,6 @@
 ---
 title: Vscode配置c++(优化版)
-copyright_author: 人间草木
+copyright_author: Mario
 tags: Vscode
 categories: 编程
 abbrlink: da63da4c

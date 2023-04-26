@@ -1,6 +1,6 @@
 ---
 title: Hexo博文加密
-copyright_author: 人间草木
+copyright_author: Mario
 abbrlink: 15bb51c4
 date: 2023-03-28 15:37:14
 updated:

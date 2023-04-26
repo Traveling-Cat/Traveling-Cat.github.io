@@ -1,6 +1,6 @@
 ---
 title: Hexo图片加载动画
-copyright_author: 人间草木
+copyright_author: Mario
 categories: Hexo
 abbrlink: a16629f9
 date: 2023-03-03 21:31:16

@@ -1,6 +1,6 @@
 ---
 title: Hexo-butterfly-douban使用
-copyright_author: 人间草木
+copyright_author: Mario
 tags: 建站
 categories: Hexo
 abbrlink: dad5cfb6
