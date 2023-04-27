@@ -13,7 +13,7 @@ toc:
 toc_number:
 toc_style_simple:
 copyright:
-copyright_author: 人间草木
+copyright_author: Mario
 copyright_author_href:
 copyright_url:
 copyright_info:

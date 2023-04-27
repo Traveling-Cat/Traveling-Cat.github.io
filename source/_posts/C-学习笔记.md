@@ -1,6 +1,6 @@
 ---
 title: C++学习笔记
-copyright_author: 人间草木
+copyright_author: Mario
 tags: 学习
 categories: PDF
 abbrlink: a5a4c1fa

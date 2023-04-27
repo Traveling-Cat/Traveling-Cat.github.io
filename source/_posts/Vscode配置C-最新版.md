@@ -1,6 +1,6 @@
 ---
 title: Vscode配置C++(最新版)
-copyright_author: 人间草木
+copyright_author: Mario
 theme: xray
 password: ''
 abstract: 〒▽〒 有什么东西被加密了

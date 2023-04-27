@@ -1,6 +1,6 @@
 ---
 title: ChatGPT-不完全指北
-copyright_author: 人间草木
+copyright_author: Mario
 theme: xray
 password: ''
 abstract: 〒▽〒 有什么东西被加密了
