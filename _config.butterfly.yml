@@ -143,45 +143,46 @@ cover:
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
     # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
-    - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/life/Home05.jpg
-    - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/life/Home03.jpg
-    - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/life/Home02.jpg
-    - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/life/Home01.jpg
-    - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/life/Home04.png
-    - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/life/Home05.jpg
-    - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home07.jpg
-    - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home08.jpg
-    - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home09.jpg
-    - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home10.jpg
-    - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home11.jpg
-    - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home12.jpg
-    - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home13.jpg
-    - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home14.jpg
-    - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home15.jpg
-    - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home16.jpg
-    - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home17.jpg
-    - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home18.jpg
-    - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home19.jpg
-    - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home20.jpg
-    - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home21.jpg
-    - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home22.jpg
-    - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home23.jpg
-    - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home24.jpg
-    - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home25.jpg
-    - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home26.jpg
-    - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home27.jpg
+    # - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/life/Home05.jpg
+    # - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/life/Home03.jpg
+    # - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/life/Home02.jpg
+    # - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/life/Home01.jpg
+    # - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/life/Home04.png
+    # - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/life/Home05.jpg
+    # - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home07.jpg
+    # - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home08.jpg
+    # - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home09.jpg
+    # - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home10.jpg
+    # - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home11.jpg
+    # - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home12.jpg
+    # - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home13.jpg
+    # - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home14.jpg
+    # - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home15.jpg
+    # - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home16.jpg
+    # - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home17.jpg
+    # - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home18.jpg
+    # - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home19.jpg
+    # - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home20.jpg
+    # - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home21.jpg
+    # - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home22.jpg
+    # - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home23.jpg
+    # - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home24.jpg
+    # - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home25.jpg
+    # - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home26.jpg
+    # - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home27.jpg
 
-    - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home30.jpg
+    # - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home30.jpg
     
-    - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home32.webp
-    - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home33.jpg
-    - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home34.jpg
-    - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home35.jpg
-    - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home36.jpg
-    - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home37.jpg
-    - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home38.jpg
-    - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home39.jpg
+    # - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home32.webp
+    # - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home33.jpg
+    # - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home34.jpg
+    # - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home35.jpg
+    # - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home36.jpg
+    # - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home37.jpg
+    # - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home38.jpg
+    # - https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home39.jpg
 
+  
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
