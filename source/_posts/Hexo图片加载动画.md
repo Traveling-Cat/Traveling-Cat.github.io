@@ -10,7 +10,7 @@ keywords:
 description:
 top_img: 
 comments:
-cover: https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/life/Home03.jpg
+cover: https://www.dmoe.cc/random.php?timestamp=3568
 toc:
 toc_number:
 toc_style_simple:

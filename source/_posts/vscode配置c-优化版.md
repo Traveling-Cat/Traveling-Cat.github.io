@@ -10,7 +10,7 @@ keywords:
 description:
 top_img:
 comments:
-cover:
+cover: https://www.dmoe.cc/random.php?timestamp=37974
 toc:
 toc_number:
 toc_style_simple:
