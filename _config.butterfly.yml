@@ -6,16 +6,15 @@ menu:
   首页: / || fas fa-home
   时间轴: /archives/ || fas fa-archive
   生活||fas fa-list:
-    音乐: /songs/ || fas fa-music
     电影:  /movies/index.html || fas fa-video
     书籍:  /books/index.html || fas fa-book
     游戏:  /games/index.html || fas fa-gamepad
     照片: /image/ || fas fa-images
-  随笔||fas fa-light fa-heart-pulse fa-bounce:
-    2023: /moods/2023/ || fas fa-sharp fa-light fa-user-secret fa-fade
+  随笔||fas fa-sharp fa-light fa-pen-nib:
+    2023: /moods/2023/ || fas fa-folder-open
   链接: /link/ || fas fa-link
 
-  关于: /about/ || fas fa-thin fa-fingerprint
+  主页: https://www.daimabox.com || fas fa-thin fa-fingerprint
 
 nav:
   logo:  # image
@@ -1006,7 +1005,7 @@ CDN:
     # fireworks:
     # click_heart:
     # ClickShowText:
-    # fontawesomeV6:
+    #fontawesomeV6: 
     # flickr_justified_gallery_js:
     # flickr_justified_gallery_css:
     # aplayer_css:
