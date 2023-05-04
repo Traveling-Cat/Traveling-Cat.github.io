@@ -323,7 +323,7 @@ addtoany:
 comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk
-  use: Valine # Valine,Disqus
+  use: Twikoo # Valine,Disqus
   text: false # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
@@ -363,10 +363,10 @@ gitalk:
 # valine
 # https://valine.js.org
 valine:
-  appId: 87ODbsQqRkCKvwOzloxlSkDX-gzGzoHsz # leancloud application app id
-  appKey: t9rOxobCil1G4erjRPeaDuRP # leancloud application app key
+  appId: KZmgnpWlAmgsvdMbm5zw9wAs-MdYXbMMI # leancloud application app id
+  appKey: 8hOJs29tfETFEDtcEDKmLFXl # leancloud application app key
   avatar: wavatar # gravatar style https://valine.js.org/#/avatar
-  serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
+  serverURLs: kzmgnpwl.api.lncldglobal.com # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
   bg: # valine background
   visitor: false
   option:
@@ -401,7 +401,7 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId:
+  envId: https://daimabox.zeabur.app
   region:
   visitor: false
   option:
@@ -452,13 +452,13 @@ chatra:
 # https://www.tidio.com/
 tidio:
   enable: false
-  public_key:
+  public_key: qsbosxw2gkd58foj20qhj8ticfgfc3u1
 
 # daovoice
 # http://dashboard.daovoice.io/app
 daovoice:
   enable: false
-  app_id:
+  app_id: 
 
 # gitter
 # https://gitter.im/
@@ -664,8 +664,8 @@ font:
 # Font settings for the site title and site subtitle
 # 左上角網站名字 主頁居中網站名字
 blog_title_font:
-  font_link: https://fonts.googleapis.com/css?family=Titillium+Web&display=swap
-  font-family: Titillium Web, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif
+  font_link: #https://fonts.googleapis.com/css?family=Titillium+Web&display=swap
+  font-family: tzy #Titillium Web, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif
 
 # The setting of divider icon (水平分隔線圖標設置)
 hr_icon:
@@ -699,7 +699,7 @@ preloader:
   # 2. pace (progress bar)
   source: 1
   # pace theme (see https://codebyzach.github.io/pace/)
-  pace_css_url:
+  pace_css_url: https://codebyzach.github.io/pace/
 
 # aside (側邊欄)
 # --------------------------------------
@@ -896,10 +896,10 @@ pangu:
 # Lazyload (圖片懶加載)
 # https://github.com/verlok/vanilla-lazyload
 lazyload:
-  enable: false
+  enable: true
   field: site # site/post
   placeholder:
-  blur: false
+  blur: true
 
 # PWA
 # See https://github.com/JLHwung/hexo-offline
@@ -934,12 +934,17 @@ css_prefix: true
 inject:
   head:
     - <link rel="stylesheet" href="/css/transpancy.css">
+    - <link rel="stylesheet" href="/css/ziti.css">
     # - <link rel="stylesheet" href="/xxx.css">
     - <link rel="stylesheet" href="/css/modify.css">
     - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_3039482_54wu1068883.css">
+    - <link rel="stylesheet" href="/css/cat.css">
   bottom:
     # - <script src="xxxx"></script>
     - <div class="aplayer no-destroy" data-id="5245361230" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-lrcType="-1"> </div>
+    - <script defer src="https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js"></script>
+    - <script defer data-pjax src="/js/cat.js"></script>
+
 
 # CDN
 # Don't modify the following settings unless you know how they work
@@ -977,7 +982,7 @@ CDN:
     # gitalk:
     # gitalk_css:
     # blueimp_md5:
-    # valine:
+    # valine: /js/Valine.min.js
     # disqusjs:
     # disqusjs_css:
     # twikoo:

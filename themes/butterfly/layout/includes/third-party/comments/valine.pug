@@ -12,6 +12,9 @@ script.
         avatar: '#{theme.valine.avatar}',
         serverURLs: '#{theme.valine.serverURLs}',
         emojiMaps: !{emojiMaps},
+        master: '6450e7331667f94fcb3b0545',   //博主邮箱md5加密32位小写
+        tagMeta: ["博主","小伙伴","访客"],     //标识字段名
+        friends:  [],  //小伙伴邮箱Md5
         path: window.location.pathname,
         visitor: #{theme.valine.visitor}
       }, !{JSON.stringify(theme.valine.option)}))
