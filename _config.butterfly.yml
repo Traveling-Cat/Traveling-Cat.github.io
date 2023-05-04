@@ -6,7 +6,7 @@ menu:
   首页: / || fas fa-home
   时间轴: /archives/ || fas fa-archive
   休闲||fas fa-list:
-    新闻: https:news.daimabox.com || fas fa-newspaper
+    新闻: https://news.daimabox.com || fas fa-newspaper
     电影:  /movies/index.html || fas fa-video
     书籍:  /books/index.html || fas fa-book
     游戏:  /games/index.html || fas fa-gamepad
