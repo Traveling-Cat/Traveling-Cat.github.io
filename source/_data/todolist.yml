@@ -1,0 +1,83 @@
+- class_name: 想做的项目
+  seat: left
+  todo_list:
+    - content: 个人主页
+      completed: true
+    - content: 公众号
+      completed: false
+    - content: 个人网盘
+      completed: false
+
+- class_name: 想看的书
+  seat: left
+  todo_list:
+    - content: 《C primer plus 》
+      completed: false
+    - content: 《C++ primer plus 》
+      completed: false
+
+- class_name: 想买的东西
+  seat: left
+  todo_list:
+    - content: 塞尔达王国之泪
+      completed: true
+    - content: 塞尔达旷野之息
+      completed: true   
+    - content: 马里奥创世家2
+      completed: true 
+    - content: 疯兔派对
+      completed: true
+    - content: Sports运动
+      completed: true
+    - content: 宝可梦-紫
+      completed: true
+    - content: 斯普拉顿2
+      completed: true
+    - content: 斯普拉顿3  
+      completed: false
+    - content: 健身环大冒险  
+      completed: false
+- class_name: 想学的技术
+  seat: right
+  todo_list:
+    - content: Vue2/Vue3
+      completed: false
+    - content: Electron
+      completed: false
+    - content: 微信小程序
+      completed: false
+    - content: CSS
+      completed: false
+    - content: HTML
+      completed: false
+    - content: Python
+      completed: false
+    - content: 数据库Mongodb/Mysql
+      completed: false
+    - content: Git
+      completed: false
+    - content: JavaScript
+      completed: false
+- class_name: 想去的地方
+  seat: right
+  todo_list:
+    - content: 桂林
+      completed: false
+    - content: 杭州
+      completed: false
+    - content: 四川
+      completed: false 
+    - content: 云南
+      completed: false   
+    - content: 厦门
+      completed: false
+    - content: 西藏
+      completed: false
+    - content: 三亚
+      completed: false
+    - content: 青岛
+      completed: true
+    - content: 烟台
+      completed: true
+    - content: 威海
+      completed: false

@@ -15,7 +15,7 @@ keywords:
 description:
 top_img:
 comments:
-cover: https://www.dmoe.cc/random.php?timestamp=3797
+cover: https://api.ucany.net/acg-pc.php?timestamp=13797
 toc:
 toc_number:
 toc_style_simple:

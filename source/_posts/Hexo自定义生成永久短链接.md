@@ -10,7 +10,7 @@ keywords: 'hexo'
 description: 
 top_img: https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo/Home06.jpg
 comments:
-cover: https://www.dmoe.cc/random.php?timestamp=346
+cover: https://api.ucany.net/acg-pc.php?timestamp=1346
 toc:
 toc_number:
 toc_style_simple:

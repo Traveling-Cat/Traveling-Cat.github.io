@@ -1,5 +1,5 @@
 ---
-title: 琐碎的日常
+title: 流水账
 updated:
   updated: null
 date: 2023-03-30 19:41:04

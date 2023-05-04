@@ -5,14 +5,17 @@
 menu:
   首页: / || fas fa-home
   时间轴: /archives/ || fas fa-archive
-  生活||fas fa-list:
+  休闲||fas fa-list:
+    新闻: https:news.daimabox.com || fas fa-newspaper
     电影:  /movies/index.html || fas fa-video
     书籍:  /books/index.html || fas fa-book
     游戏:  /games/index.html || fas fa-gamepad
     照片: /image/ || fas fa-images
+    音乐: https://music.daimabox.com || fas fa-music
   随笔||fas fa-sharp fa-light fa-pen-nib:
     2023: /moods/2023/ || fas fa-folder-open
   链接: /link/ || fas fa-link
+  Todo: /todolist/ || fas fa-mouse
 
   主页: https://www.daimabox.com || fas fa-thin fa-fingerprint
 
@@ -44,7 +47,8 @@ copy:
 #   icon: link || the description
 social:
   fab fa-github: https://github.com/Traveling-cat || Github
-  fas fa-rss: https://www.baidu.com || RSS
+  fas fa-cloudflare: https://dash.cloudflare.com/login || Cloudflare
+  fab fa-github-alt: https://vercel.com/dashboard || Vercel
   fas fa-envelope: mailto:i571216619@126.com || Email
   fa-brands fa-bilibili: https://bilibili.com || BiliBili
 # search (搜索)
@@ -933,17 +937,21 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
+
     - <link rel="stylesheet" href="/css/transpancy.css">
     - <link rel="stylesheet" href="/css/ziti.css">
+    - <link rel="stylesheet" href="/css/todo.css">
     # - <link rel="stylesheet" href="/xxx.css">
     - <link rel="stylesheet" href="/css/modify.css">
     - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_3039482_54wu1068883.css">
     - <link rel="stylesheet" href="/css/cat.css">
+
   bottom:
     # - <script src="xxxx"></script>
     - <div class="aplayer no-destroy" data-id="5245361230" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-lrcType="-1"> </div>
     - <script defer src="https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js"></script>
     - <script defer data-pjax src="/js/cat.js"></script>
+
 
 
 # CDN
@@ -968,6 +976,7 @@ CDN:
   custom_format:
 
   option:
+    # jquery: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery/3.6.0/jquery.min.js
     # main_css:
     # main:
     # utils:
@@ -978,7 +987,7 @@ CDN:
     # instantsearch_v4:
     # docsearch_js:
     # docsearch_css:
-    # pjax:
+    # pjax: https://lib.baomitu.com/pjax/0.2.8/pjax.min.js
     # gitalk:
     # gitalk_css:
     # blueimp_md5:
@@ -988,7 +997,7 @@ CDN:
     # twikoo:
     # waline_js:
     # waline_css:
-    # sharejs:
+    #sharejs: https://lib.baomitu.com/social-share.js/1.0.16/js/social-share.min.js
     # sharejs_css:
     # mathjax:
     # katex:
@@ -997,28 +1006,30 @@ CDN:
     # canvas_ribbon:
     # canvas_fluttering_ribbon:
     # canvas_nest:
-    # lazyload:
-    # instantpage:
-    # typed:
+    # lazyload: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/vanilla-lazyload/17.3.1/lazyload.iife.min.js
+    # instantpage: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/instant.page/5.1.0/instantpage.min.js
+    # typed: https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/typed.js/2.0.12/typed.min.js
     # pangu:
-    # fancybox_css_v4:
-    # fancybox_v4:
-    # medium_zoom:
-    # snackbar_css:
-    # snackbar:
+    # fancybox_css_v4: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/fancybox/3.5.7/jquery.fancybox.min.css
+    # fancybox_v4: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/fancybox/3.5.7/jquery.fancybox.min.js
+    # medium_zoom: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/medium-zoom/1.0.6/medium-zoom.min.js
+    # snackbar_css: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/node-snackbar/0.1.16/snackbar.min.css
+    # snackbar: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/node-snackbar/0.1.16/snackbar.min.js
     # activate_power_mode:
     # fireworks:
     # click_heart:
     # ClickShowText:
-    #fontawesomeV6: 
+    # fontawesomeV6: 
     # flickr_justified_gallery_js:
     # flickr_justified_gallery_css:
-    # aplayer_css:
-    # aplayer_js:
-    # meting_js:
-    # prismjs_js:
-    # prismjs_lineNumber_js:
-    # prismjs_autoloader:
+    # aplayer_css: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.css
+    # aplayer_js: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.js
+    # meting_js: https://npm.elemecdn.com/hexo-anzhiyu-music@1.0.1/assets/js/Meting2.min.js
+    # prismjs_js: https://cdn1.tianli0.top/npm/prismjs@1.1.0/prism.js
+    # prismjs_lineNumber_js: https://cdn1.tianli0.top/npm/prismjs/plugins/line-numbers/prism-line-numbers.min.js
+    # prismjs_autoloader: https://cdn1.tianli0.top/npm/prismjs/plugins/autoloader/prism-autoloader.min.js
     # artalk_js:
     # artalk_css:
     # busuanzi:
+    # justifiedGallery_js: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/justifiedGallery/3.8.1/js/jquery.justifiedGallery.min.js
+    # justifiedGallery_css: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/justifiedGallery/3.8.1/css/justifiedGallery.min.css
