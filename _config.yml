@@ -35,7 +35,11 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render: 'html/1.html'
+skip_render: 
+            - 'html/九宫格.html'
+            - 'html/烟花特效.html'
+            - 'html/昼夜交替.html'
+            - 'html/汤圆亲吻.html'
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -173,4 +177,7 @@ electric_clock:
 lazyload:
   enable: true  # 是否开启图片懒加载
   onlypost: true  # 是否只对文章的图片做懒加载
-  loadingImg: https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/loading%2F5-160914192R6-51%20(1).gif # eg ./images/loading.gif
+  loadingImg: https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/loading/1ff50a00bd75c.gif # eg ./images/loading.gif
+
+
+

@@ -17,6 +17,7 @@ menu:
   链接: /link/ || fas fa-link
   Todo: /todolist/ || fas fa-mouse
 
+
   主页: https://www.daimabox.com || fas fa-thin fa-fingerprint
 
 nav:
@@ -47,10 +48,10 @@ copy:
 #   icon: link || the description
 social:
   fab fa-github: https://github.com/Traveling-cat || Github
-  fas fa-cloudflare: https://dash.cloudflare.com/login || Cloudflare
+  fas fa-light fa-cloud: https://dash.cloudflare.com/login || Cloudflare
   fab fa-github-alt: https://vercel.com/dashboard || Vercel
   fas fa-envelope: mailto:i571216619@126.com || Email
-  fa-brands fa-bilibili: https://bilibili.com || BiliBili
+
 # search (搜索)
 # see https://butterfly.js.org/posts/ceeb73f/#搜索系統
 # --------------------------------------
@@ -867,14 +868,14 @@ note:
 # It may contain bugs and unstable, give feedback when you find the bugs.
 # https://github.com/MoOx/pjax
 pjax:
-  enable: false
+  enable: true
   exclude:
     # - xxxx
     # - xxxx
 
 # Inject the css and script (aplayer/meting)
 aplayerInject:
-  enable: false
+  enable: true
   per_page: true
 
 # Snackbar (Toast Notification 彈窗)
@@ -945,10 +946,13 @@ inject:
     - <link rel="stylesheet" href="/css/modify.css">
     - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_3039482_54wu1068883.css">
     - <link rel="stylesheet" href="/css/cat.css">
+    - <link rel="stylesheet" href="/css/musichide.css">
+    - <link rel="stylesheet" href="/css/zhizhen.css">
+
 
   bottom:
     # - <script src="xxxx"></script>
-    - <div class="aplayer no-destroy" data-id="5245361230" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-lrcType="-1"> </div>
+    - <div class="aplayer no-destroy" data-id="5245361230" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="false" data-lrcType="-1"> </div>
     - <script defer src="https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js"></script>
     - <script defer data-pjax src="/js/cat.js"></script>
 
