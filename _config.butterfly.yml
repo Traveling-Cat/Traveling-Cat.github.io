@@ -16,6 +16,7 @@ menu:
     2023: /moods/2023/ || fas fa-folder-open
   链接: /link/ || fas fa-link
   Todo: /todolist/ || fas fa-mouse
+  留言板: /comments/ || fas fa-comments
 
 
   主页: https://www.daimabox.com || fas fa-thin fa-fingerprint
