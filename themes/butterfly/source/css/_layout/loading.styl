@@ -1,10 +1,10 @@
 if hexo-config('preloader')
   .loading-bg
     display: flex;
-    width: 100%;
+    width: 100% !important;
     height: 100%;
     position: fixed;
-    background: var(#FFF);
+    background: #fff;
     z-index: 1001;
     opacity: 1;
     transition: .3s;
@@ -30,17 +30,6 @@ if hexo-config('preloader')
       top: 50%;
       left: 50%;
       transform: translate(18px, 24px);
-    #loading-percentage
-      position: absolute;
-      top: 67%;
-      left: 50%;
-      transform: translateX(-50%);
-      &::before
-        content: "「"
-        margin-right: 10px
-      &::after
-        content: "」"
-        margin-left: 10px
     &.loaded
       .loading-bg
         opacity: 0;
@@ -54,4 +43,3 @@ if hexo-config('preloader')
     100% {
         opacity: .4;
     }
-
