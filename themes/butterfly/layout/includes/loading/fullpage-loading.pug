@@ -1,14 +1,24 @@
-#loading-box
-  .loading-left-bg
-  .loading-right-bg
-  .spinner-box
-    .configure-border-1
-      .configure-core
-    .configure-border-2
-      .configure-core
-    .loading-word= _p('loading')
-
+- loading_img = theme.preloader.avatar
+#loading-box(onclick='document.getElementById("loading-box").classList.add("loaded")')
+  .loading-bg
+    img.loading-img(class='nolazyload' src=loading_img ? url_for(loading_img) : "https://obsidian-1306832247.cos.ap-nanjing.myqcloud.com/hexo%2F%E9%A9%AC%E9%87%8C%E5%A5%A5%E5%A4%B4%E5%83%8F.png")
+    .loading-image-dot
+    #loading-percentage
+      | 0%
 script.
+  const loadingPercentage = document.getElementById("loading-percentage");
+  loadingPercentage.style.color = "black";
+  let loadingPercentageTimer = setInterval(function() {
+    var progressBar = document.querySelector(".pace-progress");
+    if (!progressBar) return
+    var currentValue = progressBar.getAttribute("data-progress-text");
+    if (currentValue !== loadingPercentage.textContent) {
+      loadingPercentage.textContent = currentValue;
+      if (currentValue === "100%") {
+        clearInterval(loadingPercentageTimer);
+      }
+    }
+  }, 100);
   const preloader = {
     endLoading: () => {
       document.body.style.overflow = 'auto';
@@ -17,7 +27,6 @@ script.
     initLoading: () => {
       document.body.style.overflow = '';
       document.getElementById('loading-box').classList.remove("loaded")
-
     }
   }
   window.addEventListener('load',()=> { preloader.endLoading() })
